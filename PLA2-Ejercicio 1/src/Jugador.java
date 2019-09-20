@@ -5,7 +5,6 @@ public class Jugador {
 	private ArrayList<Carta> cartas;
 	
 	// CONSTRUCTORES
-	
 	public Jugador() {
 		super();
 		nombre = "Alex";
