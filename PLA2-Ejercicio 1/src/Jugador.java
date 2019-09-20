@@ -5,14 +5,7 @@ public class Jugador {
 	private ArrayList<Carta> cartas;
 	
 	// CONSTRUCTORES
-	/*public Jugador(String nombre, ArrayList<Carta> cartas) {
-		super();
-		nombre = "Alex";
-	//	this.nombre = nombre;
-		cartas = new ArrayList<Carta>();
-	//	this.cartas = cartas;
-	}*/
-
+	
 	public Jugador() {
 		super();
 		nombre = "Alex";
@@ -29,8 +22,8 @@ public class Jugador {
 		this.nombre = nombre;
 	}
 	
-	// MÉTODOS
-	public void darCarta (Carta carta) { // Añade carta a las del jugador.
+	// MÃ‰TODOS
+	public void darCarta (Carta carta) { // AÃ±ade carta a las del jugador.
 		cartas.add(carta);
 	}
 	
